@@ -1,0 +1,583 @@
+/*          Responsive styles
+================================================== */
+
+@media only screen and (min-width: 1678px) and (max-width: 1923px) {
+
+}
+@media only screen and (min-width: 1390px) and (max-width: 1677px) {
+	
+}
+/*                     Tablet Landscape
+=======================================================================================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+/*--------------------------------------
+   Header And SLider
+----------------------------------------*/
+    
+.slider_home h2 {
+    letter-spacing: 0px;
+    font-size: 42px;
+}
+.slide_bg_1 .col-sm-8 {
+    margin-left: 10%;
+}
+/*--------------------------------------
+    promo Section
+----------------------------------------*/
+.promo_list__item::after {
+    border-right-width: 145px;
+    border-left-width: 145px;
+}
+.promo_list__item {
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+
+.estimate_form_inner {
+    margin-left: 215px;
+}
+
+
+.service_para h5 {
+    letter-spacing: 0px;
+}
+.service_para {
+    margin-left: 41%;
+}
+.service_list {
+    padding-bottom: 10px;
+}
+
+.pricing-box h4::after {
+    left: 18px;
+}
+
+
+.blog_warp_lay_2 .blog_imgg {
+    width: 102px;
+    height: 133px;
+}
+
+
+.bottom_banner h4 {
+    letter-spacing: 1px;
+}
+
+
+}
+/*                      Tablet Portrait
+=======================================================================================*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+ /*--------------------------------------
+   Header And SLider
+----------------------------------------*/
+.top_location {
+    padding-right: 20px;
+}
+.header_quate_right {
+    display: none;
+}
+
+/*---- Slider----- */
+
+.slider_home h2 {
+    font-size: 34px;
+    letter-spacing: 1px;
+    line-height: 46px;
+}
+
+.slide_bg_1 .col-sm-8 {
+    margin-left: 12%;
+}
+
+ /*--------------------------------------
+   About  Section
+----------------------------------------*/
+.promo_list__item::after {
+    border-left-width: 110px;
+    border-right-width: 110px;
+}
+ 
+.promo_list__item {
+    padding-right: 22px;
+    padding-left: 22px;
+}
+.promo_list_title {
+    letter-spacing: 0px;
+}
+
+
+
+.estimate_section {
+    background-position: 30% 0;
+}
+.estimate_form_inner {
+    margin-left: 284px;
+}
+
+.service_para a:hover {
+    letter-spacing: 0px;
+}
+.service_para {
+    margin-left: 0%;
+}
+.service_img::before {
+	display:none;
+}
+.service_section .nav-tabs > li a {
+    width: 188px;
+}
+.service_img {
+    width: 100%;
+    height: 100%;
+	float: none;
+}
+.service_para h5 {
+    margin-top: 10px;
+}
+
+.pricing-box h4::after {
+    width: 178px;
+    left: 0px;
+}
+
+
+.facts_wrapper {
+    padding: 30px 10px 10px 10px;
+}
+.funfact_wapr h5 {
+    letter-spacing: 1px;
+    line-height: 19px;
+    margin-top: 25px;
+}
+
+.pricing-section .col-sm-3 {
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.testi_images {
+    width: 125px;
+}
+
+.blog-warp-1 img {
+    height: 148px;
+}
+.blog_warp_lay_2 .blog_imgg {
+    width: 88px;
+    height: 145px;
+}
+.blog_warp_lay_2 .blog-warp-1 h5 a {
+    font-size: 17px;
+    letter-spacing: 0px;
+}
+.blog_warp_lay_2 .blog_content_warp {
+    margin-left: 33%;
+}
+.blog-warp-1 .blog_btn {
+    font-size: 11px;
+    letter-spacing: 0px;
+}
+.blog-warp-1 .blog_btn:hover {
+    letter-spacing: 0px;
+}
+
+.blog-section .col-sm-4{
+    width: 50%;
+}
+.blog_warp_lay_2 .blog-warp-1 {
+    width: 50%;
+}
+.blog-section .col-sm-4:last-child {
+    width: 100%;
+}
+
+
+
+.bottom_banner {
+    text-align: center;
+}
+.flt_left {
+    float: none;
+}
+.bottom_banner h4 {
+    letter-spacing: 1px;
+    font-size: 26px;
+}
+.bottom_banner p {
+    margin-bottom: 20px;
+}
+.bottom_banner a {
+    float: none;
+}
+ 
+/*--------------------------------------
+   footer  Section
+----------------------------------------*/
+.footer-section .col-xs-1 {
+    padding-right: 10px;
+}
+.footer-section .widget p {
+    margin-left: -10px;
+}
+/*---- single Page ----- */
+
+
+}
+
+/*                          Phone
+=======================================================================================*/
+
+@media only screen and (max-width: 767px) {
+    /*--------------------------------------
+   Header And SLider
+----------------------------------------*/
+
+ 
+	
+/*---- Slider----- */
+.single_slider h2 {
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    margin-top: -60px;
+}
+
+
+.single_slider {
+    font-size: 15px;
+}
+.slider_home .owl-nav {
+    margin-top:-60px;
+    text-align: center;
+}
+.slider_home .owl-nav div.owl-next, .slider_home .owl-nav div {
+    left: auto;
+    margin: 10px;
+    right: auto;
+}
+.slider_home .owl-nav div {
+    color: #fff;
+    display: inline-block;
+    position: relative;
+}
+.single_slider .slider_item_tbcell {
+    text-align:center;
+}
+.slider_btn_two {
+    margin-left: 0px;
+    margin-top: 10px !important;
+}
+
+/*---- End :Slider----- */
+
+
+.top_location {
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 15px;
+}
+
+
+.header_quate_right {
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.header-right {
+    display: none;
+}
+
+ .navigation {
+    padding-bottom: 10px;
+}
+#navigation, #navigation ul, #navigation ul li, #navigation ul li a, #navigation #menu-button {
+    float: none;
+}
+#navigation.small-screen #menu-button::after, #navigation.small-screen #menu-button::before {
+    right: 20px;
+}
+#navigation ul ul {
+    top:5px;
+}
+#navigation > ul > li > a {
+    padding: 14px 20px;
+}
+#navigation > ul > li.has-sub > a {
+   padding: 14px 20px;
+}
+#navigation.small-screen ul {
+    margin-top: 10px;
+}
+ /*--------------------------------------
+   About  Section
+----------------------------------------*/
+.base-header h3 {
+    line-height: 40px;
+}
+
+.promo_list__item {
+    width: 100%;
+}
+.promo_list__item::after {
+    border-right-width: 128px;
+    border-left-width: 128px;
+}
+
+
+.about_list {
+    margin-bottom: 10px;
+}
+
+.estimate_form_inner {
+    margin-left: 10px;
+}
+
+.service_section .nav-tabs > li {
+    width: 100%;
+    text-align: center;
+}
+.service_section .nav-tabs > li a {
+    width: 100%;
+}
+.service_section .nav-tabs {
+    margin-bottom: 30px;
+}
+.service_section .col-xs-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.service_img::before {
+	display:none;
+}
+.service_para {
+    margin-left:10px;
+}
+.service_img {
+    width: 100px;
+}
+.service_para {
+    width: 53%;
+    float: left;
+    margin-bottom: 10px;
+}
+.service_list {
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+
+.projects-titles li {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+.team_section .member_warp {
+    margin-bottom: 20px;
+}
+.team_section {
+    padding-bottom: 80px;
+}
+
+
+
+ 
+.testi_images {
+    width: 102px;
+}
+.testi_social {
+    right: 7px;
+    top: 8px;
+}
+
+
+
+.blog-warp-1 .subtext {
+    margin-right: 15px;
+}
+.blog_warp_lay_2 .blog_imgg {
+    width: 90px;
+    height: 136px;
+}
+.blog-warp-1 h5 a {
+    letter-spacing: 0px;
+}
+.blog-warp-1 .blog_btn:hover {
+    letter-spacing: 0px;
+}
+
+.blog-warp-1 {
+    overflow: hidden;
+}
+.blog_warp_lay_2 .blog_content_warp {
+    width: 58%;
+    margin-left: 15px;
+    float: left;
+    overflow: hidden;
+}
+
+
+.bottom_banner {
+    text-align: center;
+}
+.flt_left {
+    float: none;
+}
+.bottom_banner h4 {
+    letter-spacing: 1px;
+    font-size: 26px;
+    line-height: 36px;
+}
+.bottom_banner p {
+    margin-bottom: 20px;
+    line-height: 21px;
+    letter-spacing: 1px;
+}
+.bottom_banner a {
+    float: none;
+}
+
+/*--------------------------------------
+   Pricing  Section
+----------------------------------------*/
+.pricing-section {
+    padding-bottom: 70px;
+}
+.pricing-box {
+    margin-bottom: 50px;
+}
+.pricing-section .col-sm-3 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.pricing-box h4::after {
+    width: 80%;
+	left: 10%;
+}
+ 
+
+/*--------------------------------------
+   Facts  Section
+----------------------------------------*/
+.facts_wrapper {
+    margin-right: 0px;
+    margin-bottom: 15px;
+}
+
+
+
+/*--------------------------------------
+   Contact  Section
+----------------------------------------*/
+ 
+/*--------------------------------------
+   footer  Section
+----------------------------------------*/
+.subfooter .col-xs-6 {
+    width: 100%;
+	text-align: center;
+}
+.scrollup {
+    float: none;
+}
+.subfooter p {
+    margin-left: 0px;
+	float: none;
+}
+.footer-section .widget {
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+.footer-section .widget h5 {
+    margin-bottom: 10px;
+}
+.footer_contact_info {
+    margin-bottom: 25px;
+}
+
+
+/*---- single Page ----- */
+ 
+.blog-area {
+    padding-right: 15px;
+    margin-bottom: -80px;
+}
+.blog_container {
+    padding-bottom: 100px;
+}
+.post-option {
+    padding: 25px 15px;
+}
+.single_service_page_content {
+    padding-right: 15px;
+}
+.single_service_section {
+    padding-bottom: 100px;
+}
+.single_service_section .service_list_img {
+    width: 100px;
+}
+.single_service_section .service_info {
+    width: 49%;
+}
+.single_service_page_content .single_service_consult {
+    padding: 22px;
+    padding-bottom: 26px;
+    text-align: center;
+}
+.single_service_page_content .single_service_consult i {
+    width: 100%;
+    padding: 0 0 15px 0px;
+    line-height: 27px;
+}
+.single_service_page_content .single_service_consult a {
+    float: none;
+}
+}
+
+/* Mobile Vertical Layout: 488px 
+===============================================================================*/
+
+@media only screen and (min-width: 488px) and (max-width: 767px) {
+	
+/*---- Slider----- */
+.single_slider h2 {
+    font-size: 40px;
+}
+.single_slider {
+    font-size: 17px;
+	text-align: center;
+}
+.slider_btn_one {
+    margin-right: 1px;
+}
+/*---- End: Slider----- */
+
+ .service_para {
+    width: 74%;
+} 
+.pricing-section .col-xs-12, .about-section .col-xs-12, .team_section .col-xs-12, .confacts-section .col-xs-12{
+    width:50%;
+}
+ 
+/*---- Fact ----- */
+.facts_wrapper {
+    margin-bottom: 30px;
+}
+.confacts-section {
+    padding-bottom: 70px;
+}
+ 
+/*---- footer----- */
+.footer-section .col-xs-1 {
+    width: 6.667%;
+}
+
+
+}
